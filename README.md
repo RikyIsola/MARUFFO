@@ -1,3 +1,3 @@
 # MARUFFO
 
-MARUFFO is a game to sponsorize Torre Maruffo in Genoa
+MARUFFO is a game to sponsor Torre Maruffo in Genoa
