@@ -15,7 +15,7 @@ public abstract class Processo extends Thread
 		setPriority(Thread.MAX_PRIORITY);
 		esegui();
 	}
-	public abstract void esegui()
+	public abstract void esegui();
 	public Processo loop()
 	{
 		Looper.prepare();

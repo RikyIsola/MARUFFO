@@ -533,8 +533,8 @@ public abstract class Schermo extends Activity
 			}
 		}
 	}
-	public abstract void crea()
-	public abstract void distruggi()
+	public abstract void crea();
+	public abstract void distruggi();
 	protected final void onDestroy()
 	{
 		super.onDestroy();
@@ -627,7 +627,7 @@ public abstract class Schermo extends Activity
 		{
 			public void run()
 			{
-				Toast.makeText(Schermo.this,testo,0).show();
+				Toast.makeText(Schermo.this,testo,Toast.LENGTH_SHORT).show();
 			}
 		});
 		return this;

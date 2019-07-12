@@ -64,5 +64,5 @@ public abstract class Tastiera extends Finestra
 		gruppo.aggiorna();
 		return this;
 	}
-	protected abstract void conferma(StringBuilder testo)
+	protected abstract void conferma(StringBuilder testo);
 }

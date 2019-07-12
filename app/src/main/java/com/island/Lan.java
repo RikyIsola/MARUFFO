@@ -364,7 +364,7 @@ public abstract class Lan
 			Lista.debug(e);
 		}
 	}
-	public abstract void leggi(StringBuilder messaggio,Socket socket)
+	public abstract void leggi(StringBuilder messaggio,Socket socket);
 	private int mandato,mandatoServer;
 	private long tempo=System.currentTimeMillis();
 	public Lan manda(CharSequence messaggio)

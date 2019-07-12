@@ -193,11 +193,11 @@ public class Gruppo extends ViewGroup
 				piuX=defaultX-maxX;
 				piuY=defaultY-maxY;
 			}
-			for(int a=0;a<getChildCount();a++)if(getChildAt(a).getVisibility()==0)
+			for(int a=0;a<getChildCount();a++)if(getChildAt(a).getVisibility()==View.VISIBLE)
 				{
 					final View oggetto=getChildAt(a);
 					final Info info=(Info)oggetto.getLayoutParams();
-					final double x,y,altezza,larghezza;
+					double x,y,altezza,larghezza;
 					if(!info.antiTransX)x=-transX+info.transX*unitaX;
 					else x=0;
 					if(!info.antiTransY)y=-transY+info.transY*unitaY;

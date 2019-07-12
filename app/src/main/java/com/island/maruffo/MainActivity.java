@@ -45,7 +45,7 @@ public class MainActivity extends Schermo
 	}
 	public boolean debug()
 	{
-		return true;
+		return false;
 	}
 	public boolean immagini()
 	{
